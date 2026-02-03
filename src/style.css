@@ -97,7 +97,7 @@ button:active {
     text-align: center;
 }
 
-.restaurant_name {
+.title-top {
     padding: 8px;
     font-size: 3rem;
     font-family: 'Quintessential';
@@ -119,9 +119,10 @@ span {
     align-items: center
 }
 
-.card.three > p {
+.title {
     font-size: 2rem;
     font-weight: bold;
+    border-bottom: 3px solid blueviolet;
 }
 
 .card.three p {
@@ -134,4 +135,19 @@ span {
     justify-content: center;
     align-items: center;
     border-top: 3px solid blueviolet;
+}
+
+.footer {
+    background-color: blueviolet;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.footer p {
+    margin: 0;
+    font-family: 'Delius';
+    color: white;
 }
